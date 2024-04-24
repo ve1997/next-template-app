@@ -10,7 +10,7 @@ import type React from "react";
 import ReactDOM from "react-dom";
 import { colorCn, commonCn } from "./styles";
 
-type CustomModalProps = {
+export type CustomModalProps = {
 	title?: string;
 	icon?: ReactNode;
 	color?:
