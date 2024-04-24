@@ -37,7 +37,7 @@ export const btnCn = tv({
 			variant: "outlined",
 			color: "primary",
 			className:
-				"border border-primary-light text-primary-light hover:border-primary-main hover:text-primary-main",
+				"border border-primary-light text-primary-light hover:border-primary-dark hover:text-primary-main",
 		},
 		{
 			variant: "text",
@@ -59,7 +59,7 @@ export const btnCn = tv({
 			variant: "outlined",
 			color: "secondary",
 			className:
-				"border border-secondary-light text-secondary-light hover:border-secondary-main hover:text-secondary-main",
+				"border border-secondary-light text-secondary-light hover:border-secondary-dark hover:text-secondary-main",
 		},
 		{
 			variant: "text",
@@ -81,7 +81,7 @@ export const btnCn = tv({
 			variant: "outlined",
 			color: "error",
 			className:
-				"border border-error-light text-error-light hover:border-error-main hover:text-error-main",
+				"border border-error-light text-error-light hover:border-error-dark hover:text-error-main",
 		},
 		{
 			variant: "text",
@@ -103,7 +103,7 @@ export const btnCn = tv({
 			variant: "outlined",
 			color: "warning",
 			className:
-				"border border-warning-light text-warning-light hover:border-warning-main hover:text-warning-main",
+				"border border-warning-light text-warning-light hover:border-warning-dark hover:text-warning-main",
 		},
 		{
 			variant: "text",
@@ -125,7 +125,7 @@ export const btnCn = tv({
 			variant: "outlined",
 			color: "success",
 			className:
-				"border border-success-light text-success-light hover:border-success-main hover:text-success-main",
+				"border border-success-light text-success-light hover:border-success-dark hover:text-success-main",
 		},
 		{
 			variant: "text",
@@ -147,7 +147,7 @@ export const btnCn = tv({
 			variant: "outlined",
 			color: "info",
 			className:
-				"border border-info-light text-info-light hover:border-info-main hover:text-info-main",
+				"border border-info-light text-info-light hover:border-info-dark hover:text-info-main",
 		},
 		{
 			variant: "text",

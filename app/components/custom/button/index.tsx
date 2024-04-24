@@ -48,19 +48,12 @@ export const CustomButton = ({
 				: size === "large"
 					? { fontSize: "large" }
 					: {};
-		const opacityClasses =
-			variant === "contained"
-				? "opacity-80"
-				: variant === "text"
-					? "opacity-64"
-					: "opacity-100";
 		const marginClasses = startIcon ? "mr-1" : "ml-1";
 		return cloneElement(icon, {
 			...iconSize,
 			className: cn(
 				"shrink-0",
 				icon.props.className,
-				opacityClasses,
 				marginClasses,
 				disabled && "opacity-50",
 				variant === "icon" && "m-0",
