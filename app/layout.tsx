@@ -1,3 +1,4 @@
+import { CustomModalManager } from "@/app/components/custom/modal";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import type { ReactNode } from "react";
@@ -17,7 +18,10 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={inter.className}>{children}</body>
+			<body className={inter.className}>
+				{children}
+				<CustomModalManager />
+			</body>
 		</html>
 	);
 }
